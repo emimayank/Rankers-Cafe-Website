@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>iMage Slider</title>
+<script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+    $('#slider').cycle({
+    fx:     'scrollHorz', /* Change the fx 'fade' to 'scrollHorz' if you want*/
+    speed:  'slow',
+    timeout: 3000,
+    next:   '#next',
+    prev:   '#prev'
+});
+
+</script>
+<style type="text/css">
+#wrapper {
+        display: block;
+        margin: auto;
+        height: 720px;
+        width: 960px;
+}
+#container {
+        overflow: auto;
+}
+#slider {
+        display: block;
+        float: left;
+        height: 720px;
+        width: 960px;
+        overflow: hidden;
+        position: absolute;
+}
+#prev {
+       background-image: url(images/leftArrow.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: block;
+		float: left;
+		height: 720px;
+		width: 100px;
+		position: relative;
+		z-index: 99;
+}
+#next {
+       background-image: url(images/rightArrow.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		display: block;
+		float: right;
+		height: 720px;
+		width: 100px;
+		position: relative;
+		z-index: 99;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="container">
+    <div class="controller" id="prev"></div>
+        <div id="slider">
+            <img src="images/flight-1.jpg" width="960" height="720" alt="flight-1">
+            <img src="images/flight-2.jpg" width="960" height="720" alt="flight-1">
+            <img src="images/flight-3.jpg" width="960" height="720" alt="flight-1">
+            <img src="images/flight-4.jpg" width="960" height="720" alt="flight-1">
+            <img src="images/flight-5.jpg" width="960" height="720" alt="flight-1">
+   </div>
+    <div class="controller" id="next"></div>
+  </div>
+</div>
+</body>
+</html>

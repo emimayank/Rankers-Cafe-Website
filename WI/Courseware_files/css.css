@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rosario Regular'), local('Rosario-Regular'), url(http://themes.googleusercontent.com/static/fonts/rosario/v8/w-TkvmAJln05SsRcUypbwA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Rosario';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rosario Bold'), local('Rosario-Bold'), url(http://themes.googleusercontent.com/static/fonts/rosario/v8/C6vOqPM2grRKaQTsxWhqnBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Rosario';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Rosario Italic'), local('Rosario-Italic'), url(http://themes.googleusercontent.com/static/fonts/rosario/v8/qPuMCAX6nBODQfYbsOfqLj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Rosario';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Rosario Bold Italic'), local('Rosario-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/rosario/v8/EOgFX2Va5VGrkhn_eDpIRXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}

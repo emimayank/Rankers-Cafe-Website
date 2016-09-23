@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shah Bokhari Portfolio Site</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="css/menu.css">
+<script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.caption2.min.js"></script>
+
+<style type="text/css">
+
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+<header>
+<div id="logo"><a href="#"><img src="images/logo-small.png"></a></div>
+
+<a href="#menu" class="menu-link"><img src="images/menu3.png"></a>
+<nav id="menu" role="navigation">
+
+	<ul>
+    	<li><a href="#">Home</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+
+<div class="cycle-slideshow" 
+    data-cycle-fx=scrollHorz
+    data-cycle-timeout=2000
+    data-cycle-pager-event="mouseover"
+    data-cycle-caption-plugin=caption2
+    data-cycle-caption-fx-out='slideUp'
+    data-cycle-caption-fx-in='slideDown'
+    data-cycle-overlay-fx-out="slideUp"
+    data-cycle-overlay-fx-in="slideDown"
+    >
+    <!-- prev/next links -->
+    <div class="cycle-prev"></div>
+    <div class="cycle-next"></div>
+    <!-- Pager -->
+    <div class="cycle-pager"></div>
+    <!-- Caption -->
+    <div class="cycle-caption"></div>
+    <!-- Caption OVERLAY -->
+    <div class="cycle-overlay"></div>
+    
+    <img src="images/Flight-1.jpg" data-cycle-title="Flight 1" data-cycle-desc="Jet Engine">
+    <img src="images/Flight-2.jpg" data-cycle-title="Flight 2" data-cycle-desc="Close to Cloud">
+    <img src="images/Flight-3.jpg" data-cycle-title="Flight 3" data-cycle-desc="Distance View">
+    <img src="images/Flight-4.jpg" data-cycle-title="Flight 4" data-cycle-desc="On the Wing 1">
+    <img src="images/Flight-5.jpg" data-cycle-title="Flight 5" data-cycle-desc="On the Wing 2">
+    <img src="images/Flight-6.jpg" data-cycle-title="Flight 6" data-cycle-desc="On the Wing 3">
+</div>
+</div>
+<!-- Script for Mobile Menu -->
+<script type="text/javascript">
+	$(document).ready(function() {
+	  $('body').addClass('js');
+	  var $menu = $('#menu'),
+		$menulink = $('.menu-link');
+	  
+	$menulink.click(function() {
+	  $menulink.toggleClass('active');
+	  $menu.toggleClass('active');
+	  return false;
+	});});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41329053-1', 'bokharia.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

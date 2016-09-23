@@ -1,0 +1,132 @@
+/*NAVIGATION PROPERTIES*/
+
+#menu {
+	width: 55%;
+	margin-top: -59px;
+	text-align: center;
+	background-color: rgba(0,204,255,0.0);
+	float: right;
+	display: block;
+	text-transform: uppercase;
+}
+
+
+#menu ul {
+		padding: 10px;
+}
+
+#menu ul li {
+	list-style: none;
+	padding: 10px;
+	margin: 1px;
+	display: inline-block;
+	width: 100px;
+	background-color: rgba(153,153,102,0.7);
+}
+
+#menu ul li a {
+	color: white;
+	text-decoration: none;
+}
+	#menu li:hover, #menu a:active {
+	background-color: rgba(0,204,255,0.6);
+}
+	
+/*For Tablet Devices*/
+
+@media screen and (max-width: 800px) {
+
+	#menu {
+	width: 100%;
+	margin: 2px auto -1px;
+	text-align: center;
+	background-color: rgba(223,223,93,0.5);
+	width: 100%;
+	text-transform: uppercase;
+}
+	#menu ul {
+			
+}
+	#menu ul li {
+				
+				list-style: none;
+				
+				background: rgba(0,0,0,.0);
+
+				display: inline;
+				
+}
+	#menu ul li a {
+				
+				
+				padding: 10px;
+				background: rgba(0,0,0,.3);
+				margin-top: 5px;
+				display: inline-block;
+				width: 15%;
+}
+	#menu li:hover, #menu a:active {
+	background-color: rgba(0,102,255,0.0);
+}
+}
+
+/*For Mobile Devices*/
+
+@media screen and (max-width: 767px) {
+	#menu {
+	background-color: rgba(255,255,255,0.3);
+}
+	#menu ul {
+		padding: 6px;
+		
+}
+	
+	#menu ul li {
+	display: block;
+	width: auto;
+	margin: 1px auto;
+	padding: 0;
+	float: none;
+	background-color: rgba(102,102,102,0.3);
+	}
+	#menu ul li a {
+	display: block;
+	width: auto;
+	margin: 1px auto;
+	padding: 15px;
+	float: none;
+	background-color: rgba(102,102,102,0.3);
+	}
+	#menu li:hover, #menu a:active {
+	background-color: rgba(0,204,255,0.3);
+}
+}
+
+/*For Mobile Devices* END!*/
+/*For Tablet Devices* END!/
+/*For Mobile Devices
+
+@media screen and (max-width: 767px) {
+	#menu {
+	background-color: rgba(255,255,255,0.3);
+	text-transform: uppercase;
+}
+	#menu ul {
+		padding: 6px;
+		
+}
+	
+	#menu ul li {
+	display: block;
+	width: auto;
+	margin: 1px auto;
+	padding: 15px;
+	float: none;
+	background-color: rgba(102,102,102,0.3);
+	}
+	#menu li:hover, #menu a:active {
+	background-color: rgba(0,204,255,0.3);
+}
+}
+*/
+/*For Mobile Devices* END!*/
